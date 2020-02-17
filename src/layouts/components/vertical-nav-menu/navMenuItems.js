@@ -7,18 +7,23 @@
   Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
 
-
 export default [
   {
     url: "/",
-    name: "Home",
+    name: "Dashboard",
     slug: "home",
-    icon: "HomeIcon",
+    icon: "HomeIcon"
   },
   {
-    url: "/page2",
-    name: "Page 2",
-    slug: "page2",
-    icon: "FileIcon",
-  },
-]
+    header: "Manage Site",
+    icon: "PackageIcon",
+    items: [
+      {
+        url: "/Testimonial",
+        name: "Testimonial",
+        icon: "ThumbsUpIcon",
+        slug: "testimonial"
+      }
+    ]
+  }
+];

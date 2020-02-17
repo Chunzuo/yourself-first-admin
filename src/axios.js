@@ -1,9 +1,7 @@
 // axios
-import axios from 'axios'
-
-const domain = ""
+import axios from "axios";
 
 export default axios.create({
-  domain
+  baseURL: "http://localhost:3000/api"
   // You can add your headers here
-})
+});
